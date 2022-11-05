@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  font-family: "Barlow";
+}
+
+/* Desktop */
+
+/* trademark-bar area  */
+.pre-order-bar {
+  margin: 20px 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60%;
+}
+
+.trademark-icon {
+  background-color: #f16718;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.btn1 {
+  background-color: #e8eff2;
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  font-weight: 600;
+  color: rgb(92, 84, 84);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.btn1:hover {
+  background-color: #162542;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*design 1 */
+.card-1 {
+  margin-left: 150px;
+  display: flex;
+  height: auto;
+}
+
+.card-content {
+  width: 35%;
+  height: 70%;
+  gap: 400px;
+}
+
+.card-title {
+  font-family: Barlow;
+  font-size: 56px;
+  line-height: 56px;
+  width: auto;
+  padding: 5px;
+  color: #162542;
+}
+
+.card-text {
+  width: 30vw;
+  padding: 1px;
+  color: #7b8bad;
+}
+
+.card-text-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 1px;
+}
+.btn2 {
+  background-color: #f16718;
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  padding: 5px;
+  font-weight: 600;
+  color: rgb(254, 246, 246);
+}
+.btn2:hover {
+  background-color: #ff9b62;
+  cursor: pointer;
+}
+
+/* keyboard image area */
+
+.card-image1,
+img {
+  justify-content: center;
+  width: 75%;
+  height: auto;
+  margin-left: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border-radius: 15px;
+}
+
+.thin-light-sea-blue {
+  background-color: #e8eff2;
+  height: 200px;
+  width: 120px;
+  border-radius: 15px 0 0 15px;
+}
+
+/* design 2 */
+
+.card-image-2-3 {
+  margin: 50px 0;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  /* border:5px solid black ; */
+  height: 400px;
+}
+
+.thin-light-sea-blue-2 {
+  display: flex;
+  background-color: #e8eff2;
+  height: 200px;
+  width: 120px;
+  border-radius: 0px 15px 15px 0px;
+  align-self: flex-end;
+}
+
+.card-image-2-3 .img-2 {
+  width: 250px;
+}
+
+.card-image-2-3 .img-3 {
+  width: 450px;
+}
+
+.card-text-2 {
+  /* border:5px solid black ; */
+  margin: 50px;
+}
+
+.card-text-2,
+h3 {
+  font-size: 32px;
+  width: auto;
+  color: #162542;
+}
+
+.card-text-2,
+p {
+  font-size: 18px;
+  width: 300px;
+}
+
+/* Footer */
+.footer {
+  border: 2px solid black;
+  display: flex;
+  gap: 5px;
+  margin: 50px 180px;
+  width: 1200px;
+}
+
+.heading {
+  justify-content: center;
+  font-weight: 700;
+  font-family: "Barlow";
+  font-size: 24px;
+  color: #162542;
+  margin: 2px;
+}
+
+.div1 h3 {
+  font: size 32px;
+  font-weight: 600;
+}
+.svg-compatibility {
+  display: flex;
+  align-self: flex-start;
+  background-color: #f16718;
+  height: 25px;
+  width: 30px;
+  padding: 8px;
+}
+
+.svg-battery {
+  background-color: #f16718;
+  height: 25px;
+  width: 30px;
+  padding: 8px;
+}
+.svg-bluetooth {
+  background-color: #f16718;
+  height: 25px;
+  width: 30px;
+  padding: 8px;
+}
+
+.svg-backlight {
+  background-color: #f16718;
+  height: 25px;
+  width: 30px;
+  padding: 8px;
+}
+
+.patent-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7b8bad;
+ 
+}
+
