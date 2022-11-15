@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-family: "Barlow";
 }
 
 /* all images */
@@ -11,12 +10,11 @@ img{
 /* all paragraphs */
 p{
   font-size: 16px !important;
+  line-height: 26px !important;
   font-family: "Barlow";
   color: #7b8bad;
-  line-height: 24px;
-}
-
-                                          /* Desktop */
+}                  
+        /* Desktop */
 
 /* trademark-bar area  */
 .pre-order-bar {
@@ -28,7 +26,6 @@ p{
   justify-content: center;
   align-items: center;
   gap: 65%;
- 
 }
 
 .trademark-icon {
@@ -61,7 +58,8 @@ p{
   cursor: pointer;
 }
 
-      /*design 1 */
+      /*section 1 */
+
       section {
         display: flex;
       }
@@ -140,7 +138,7 @@ img{
 }
 
 
-/* design 2 */
+/* section 2 */
 
 .card-image-2-3 {
   margin: 50px 0;
@@ -162,7 +160,7 @@ img{
 }
 
 .card-image-2-3 .img-2 {
-  width: 250px;
+  width: 255px;
 }
 
 .card-image-2-3 .img-3 {
@@ -188,65 +186,55 @@ p {
   width: 300px;
 }
 
-    /* design 3 */
+    /* section 3 */
 
   /* Footer */
 .footer {
-  /* border:2px solid black; */
   display: flex;
-  gap: 5px;
-  padding: 5px;
-  margin: 0 200px;
-  height:300px
+  gap:20px;
+ margin: 100px 140px;
+  height:300px;
+}
+.parag{
+  display:flex;
+  flex-wrap: wrap;
+  width: 255px;
+
 }
 
 .heading {
-  justify-content: center;
   font-weight: 700;
   font-family: "Barlow";
   font-size: 24px;
+  line-height: 28px;
   color: #162542;
   margin: 2px;
+  width: 180px !important;
+  height:56px;
 }
 
 /* direct child */
-.div1{ 
-
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 600;
+.div1, .div2, .div3, .div4{
+  width:255px;
+  height: 320px;
+ flex-wrap: wrap;
 }
 
-.svg-compatibility {
-  background-color: #f16718;
-  height: 25px;
+.svg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30px;
-  padding: 8px;
+  height: 30px;
+  padding: 16px;
+  background-color: #f16718;
+  border-radius:5px;
 }
 
-img.svg-compatibility{
-  border-radius: none;
-  justify-content: flex-start;
-}
-
-.svg-battery {
-  background-color: #f16718;
-  height: 25px;
-  width: 30px;
-  padding: 8px;
-}
-.svg-bluetooth {
-  background-color: #f16718;
-  height: 25px;
-  width: 30px;
-  padding: 8px;
-}
-
-.svg-backlight {
-  background-color: #f16718;
-  height: 25px;
-  width: 30px;
-  padding: 8px;
+.heading{
+  width: 255px;
+  height: 56px;
+  margin:24px 0px;
 }
 
 .patent-area {
