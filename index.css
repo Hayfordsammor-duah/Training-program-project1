@@ -211,7 +211,7 @@ p {
 
 /* direct child */
 .div1{ 
-  background-color: red;
+
   font-size: 24px;
   line-height: 28px;
   font-weight: 600;
@@ -254,6 +254,7 @@ img.svg-compatibility{
   justify-content: center;
   align-items: center;
   color: #7b8bad;
+  margin: 10px;
  
 }
 
