@@ -1,6 +1,7 @@
 body,
 html {
   margin: 0;
+  overflow-x: hidden;
 }
 
 /* remove scroll bar but keep scroll functionality */
@@ -181,7 +182,7 @@ p {
   border-radius: 15px;
   opacity: 0.85;
 }
-                            /* ^^ color overlay ^^ */
+
 
 .card-image-2-3 .img-3 {
   width: 450px;
@@ -271,4 +272,94 @@ p {
   line-height: 26px;
 
   
+}
+
+
+                  /* Media queries */
+
+                  /* mobile phones */
+@media only screen and (max-width:414px){
+
+  /* section 1 */
+  .pre-order-bar{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap:40%;
+    width: 400px;
+  }
+.section-1{
+  display: flex;
+  flex-direction: column;
+  margin:0;
+}
+
+.card-1{
+  display: flex;
+  flex-direction: column;
+  gap:0;
+  margin: 20px;
+}
+.card-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin:24px;
+}
+
+.card-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  padding: 5px;
+  margin: 20px;
+ 
+}
+
+.card-text-btn{
+  display: flex;
+  width: 400px;
+  gap: 50px;
+  margin: 24px;
+
+}
+.card-image1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 24px;
+  margin:30px 0;
+
+}
+
+.thin-light-sea-blue{
+  display: none;
+}
+
+
+       /* section 2 */
+       .card-image-2-3{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 24px;
+       }
+
+       .thin-light-sea-blue-2{
+        display: none;
+      }
+
+      .container{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 100px;
+      }
+      .img-3{
+       
+
+
+      }
 }
