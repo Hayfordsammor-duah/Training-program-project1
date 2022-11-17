@@ -401,11 +401,10 @@ p {
   }
 
   .patent-area{
- position:fixed;
+ position:relative;
  bottom: 0;
  width: 100%;
- background-color: #162542;
- margin:0 0;
+ margin: 60px 0 40px 0;
  
  
   }
