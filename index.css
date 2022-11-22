@@ -271,7 +271,7 @@ p {
 /* Media queries */
 
 /* mobile phones L*/
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 425px) {
 
  
   /* section 1 mobile*/
@@ -355,6 +355,9 @@ p {
   .img-3 {
     width: 250px !important;
     margin: 0 24px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .thin-light-sea-blue-2 {
@@ -398,5 +401,36 @@ p {
     bottom: 0;
     width: 100%;
     margin: 60px 0 40px 0;
+  }
+
+   @media screen and (min-width:320px) and (max-width:375px){
+   
+ 
+.pre-order-bar{
+  width: auto;
+  gap: auto;
+}
+.card-title{
+  margin:0 5px 0 0 !important;
+}
+ 
+.card-text{
+  margin:0;
+ width: 300px;
+}
+
+.card-text-btn{
+  margin:0;
+  width: 400px;
+  gap:8px ;
+}
+.card-image1 >img{
+  margin:0;
+}
+
+.card-text-2{
+  margin:0 0 0 15px;
+}
+
   }
 }
