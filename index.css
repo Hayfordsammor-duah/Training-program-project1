@@ -659,12 +659,15 @@ p {
   
   .thin-light-sea-blue-2{
     display: flex;
-    width: 150px;
+    position: absolute;
+    width: 120px;
     left: 0;
     height: 283.3Px;
   
   }
-
+  .content{
+  
+  }
   
   .card-image-2-3{
     flex-wrap: nowrap;
