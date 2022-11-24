@@ -37,6 +37,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 65%;
+  width: 100%;
 }
 
 .trademark-icon {
@@ -605,6 +606,7 @@ p {
   }
   .parag {
     width: 400px;
+    
   }
 }
 
@@ -614,12 +616,13 @@ p {
   body, html{
     margin: 0;
     padding: 0;
+    
   }
 
   .pre-order-bar{
-    width: 100%;
-    gap: 70%;
+  
   }
+
       /* section 1 */
   .section-1 {
     margin:50px 0 50px 120px;
@@ -627,15 +630,17 @@ p {
   }
   .card-1{
     margin: 50px 0;
+  
   }
 
   .card-content{
-    margin: 0 100px 0 0;
+    margin: 0 190px 0 0;
     height: auto;
+    width: 25%;
   }
   .card-image1 img{
-    margin:0 100px 0 0;
-    width: 600px;
+    margin:0 0px 0 0;
+    width:70%;
 
   }
   
@@ -643,9 +648,9 @@ p {
     display: flex;
     position: absolute;
     right: 0;
-    width: 150px; 
+    width: 120px; 
     height: 283.3px;
-    margin-top: 20px;
+    margin-top: 50px;
     
   }
 
@@ -659,6 +664,8 @@ p {
     height: 283.3Px;
   
   }
+
+  
   .card-image-2-3{
     flex-wrap: nowrap;
   }
