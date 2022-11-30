@@ -7,6 +7,7 @@ body,
 html {
   margin: 0;
   overflow-x: hidden;
+  font-family: 'barlow';
 }
 
 /* remove scroll bar but keep scroll functionality */
@@ -27,8 +28,6 @@ img {
 p {
   font-size: 16px !important;
   line-height: 26px !important;
-  font-family: "Barlow";
-  font-weight: 300 !important;
   color: #7b8bad;
 }
 /* Desktop */
@@ -230,13 +229,12 @@ p {
 }
 
 .heading {
+  font-family: 'barlow';
   font-weight: 700;
-  font-family: "Barlow";
-  font-size: 24px;
+  font-size: 28px;
   line-height: 28px;
   color: #162542;
   margin: 2px;
-  width: 180px !important;
   height: 56px;
 }
 
@@ -255,13 +253,12 @@ p {
   height: 60px;
   padding: 20px;
   background-color: #f16718;
-  border-radius: 15px;
+  border-radius: 16px;
 }
 
 .heading {
   display: flex;
-  width: 255px;
-  height: 56px;
+  height: auto;
   margin: 24px 0px;
 }
 
@@ -440,11 +437,20 @@ p {
   }
 
   .card-text-2 {
-    margin: 0 0 0 15px;
+    
+    margin: 0 10px 0 10px;
+  }
+  .card-text-2 > h3{
+    display: flex;
+    align-items: center;
+    width: 100%;
   }
 
   .footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 750px 0 0 0px !important;
   }
 
   img.svg {
@@ -452,20 +458,27 @@ p {
   }
   .heading {
     margin: 40px 40px 40px 40px;
+     
   }
 
-  p.parag {
+  .parag {
     width: 280px;
     margin: 10px 0;
-    line-height: 20px !important;
+    font-size: 16px;
+    line-height: 26px;
+
   }
   .patent-area {
-    margin: 20px 0 20px 0;
+    position:relative;
+    top: 500px;
+    bottom:0px;
+
+    
   }
 }
 
 /*Tablets and ipads max-width: 767px */
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   body,
   html {
     margin: 1px;
@@ -538,6 +551,12 @@ p {
   .div4 {
     margin: 0;
   }
+  .parag  p{
+    font-family:'barlow';
+    font-weight: normal !important;
+    width: auto;
+
+  }
 
   .patent-area {
     display: flex;
@@ -547,7 +566,7 @@ p {
   }
 }
 
-/* desktop/ tablet from 1024 */
+/* desktop 1024 */
 
 @media only screen and (min-width: 1024px) and (max-width: 1080px) {
   .btn1 {
