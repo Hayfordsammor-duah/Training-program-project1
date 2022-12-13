@@ -6,8 +6,7 @@
 body,
 html {
   margin: 0;
-  overflow-y: visible;
-  overflow-x:hidden;
+  overflow-x: clip;
   font-family: "barlow";
 }
 
